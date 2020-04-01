@@ -1,7 +1,7 @@
 {
   "name": "puppeteer-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "`npm install`",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/bootstrap.js --recursive test"
@@ -13,5 +13,10 @@
     "lodash": "^4.17.15",
     "mocha": "^7.1.1",
     "puppeteer": "^2.1.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
